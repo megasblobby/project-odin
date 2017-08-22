@@ -8,20 +8,30 @@ html, body {
   margin: 0px;
   width: 100%;
   height: 100%;
+
+  font-family: arial,sans-serif;
 }
 
 button {
+  width: 150px;
+  height: 35px;
+  margin-left: 10px;
   background-color: #F4F4F4;
   color: #787575;
   border: 0;
-  width: 150px;
-  height: 35px;
   font-weight: bold;
 }
 
 header {
   width: 100%;
   height: 60px;
+}
+
+header span {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: -10px;
+  font-size: 13px;
 }
 
 footer {
@@ -34,15 +44,6 @@ footer {
   border-color: #E4E4E4;
   width: 100%;
   height: 45px;
-  font-family: arial,sans-serif;
-}
-
-header span {
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-bottom: -10px;
-  font-family: arial,sans-serif;
-  font-size: 13px;
 }
 
 footer div {
@@ -55,7 +56,6 @@ footer span {
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
-  font-family: arial,sans-serif;
   font-size: small;
   color: #666666;
 }
@@ -69,59 +69,46 @@ footer span {
   float: right;
 }
 
-.sixth-height {
-  height: 15%;
-}
 
-.search-bar {
-  height: 100%;
-  border: 1px solid #DDDDDD;
-  background-color: #FFFFFF;
-  border-radius: 2px 2px 0 0;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-#avatar {
+.icon {
   display: inline-block;
-  width: 32px; height: 32px;
-  max-width : 32px;
-  border-radius: 100%;
-  background-image: url(https://lh3.googleusercontent.com/-0tDeb3YZvsI/AAAAAAAAAAI/AAAAAAAAAAA/AMp5VUp0Dj1UUmJvJkPD233k6NJa1oLaBg/s32-c-mo/photo.jpg);
   background-repeat: no-repeat;
+}
+
+.menu-icon {
+  width: 18px;
+  height: 18px;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  margin-bottom: -5px;
+}
+
+.circle-border {
+  border-radius: 100%;
 }
 
 #grid {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-  background-repeat: no-repeat;
   background-position: -138px -44px;
-  background-size: 528px 68px;
-  margin-bottom: -5px;
 }
 
 #alerts {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-  background-repeat: no-repeat;
   background-position: -195px -22px;
-  background-size: 528px 68px;
   background-color: #737373;
-  border-radius: 100%;
-  margin-bottom: -5px;
+}
+
+#avatar {
+  width: 32px; height: 32px;
+  max-width : 32px;
+  background-image: url(https://lh3.googleusercontent.com/-0tDeb3YZvsI/AAAAAAAAAAI/AAAAAAAAAAA/AMp5VUp0Dj1UUmJvJkPD233k6NJa1oLaBg/s32-c-mo/photo.jpg);
 }
 
 #logo {
-background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
-background-size: cover;
-background-repeat: no-repeat;
-max-width: 290px;
-min-height: 95px;
-margin-top: 140px;
-margin-bottom: 20px;
+  background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 290px;
+  min-height: 95px;
+  margin-top: 140px;
+  margin-bottom: 20px;
 }
 
 #sublogo {
@@ -130,4 +117,31 @@ margin-bottom: 20px;
   color: #4288F7;
   margin-right: 26px;
   margin-top: 80px;
+}
+
+#search-bar-container {
+  width: 590px;
+  height: 40px;
+}
+
+#search-bar {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #DDDDDD;
+  background-color: #FFFFFF;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#buttons-container {
+  width: 540px;
+  margin-top: 40px;
+}
+
+#search {
+  margin-left: 100px;
+}
+
+#pubblicita {
+  margin-left: 40px;
 }

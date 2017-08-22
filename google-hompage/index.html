@@ -8,12 +8,12 @@
 
   <body>
     <header>
-      <div class="right-aligned">
-        <span>Gmail</span>
-        <span>Immagini</span>
-        <span id="grid"></span>
-        <span id="alerts"></span>
-        <span id="avatar"></span>
+      <div id="menu" class="right-aligned">
+        <span id="gmail">Gmail</span>
+        <span id="immagini">Immagini</span>
+        <span id="grid" class="icon menu-icon"></span>
+        <span id="alerts" class="icon menu-icon circle-border"></span>
+        <span id="avatar" class="icon circle-border"></span>
        </div>
     </header>
 
@@ -25,28 +25,28 @@
 
 
     <div id="form">
-      <div class="centered-horizontally" style="width: 45%; height: 40px;">
-        <input id="search-bar" class="search-bar" type="text" style="width: 100%;  height: 100%;"></input>
+      <div id="search-bar-container" class="centered-horizontally">
+        <input id="search-bar" type="text"></input>
       </div>
       <div>
-        <div class="centered-horizontally" style="width: 40%; margin-top: 40px;">
-          <button style="margin-left: 100px;">Cerca con Google</button>
+        <div id="buttons-container" class="centered-horizontally">
+          <button id="search">Cerca con Google</button>
           <button>Mi sento fortunato</button>
         </div>
       </div>
     </div>
 
     <footer>
-      <div>
-        <span style="margin-left: 40px;">Pubblicità</span>
-        <span>Soluzioni aziendali</span>
-        <span>Informazioni</span>
+      <div id="left-group">
+        <span id="pubblicita">Pubblicità</span>
+        <span id="soluzioni">Soluzioni aziendali</span>
+        <span id="informazioni">Informazioni</span>
       </div>
-      <div class="right-aligned">
-        <span>Privacy</span>
-        <span>Termini</span>
-        <span>Impostazioni</span>
-        <span>Utilizza Google.com</span>
+      <div id="right-group" class="right-aligned">
+        <span id="privacy">Privacy</span>
+        <span id="termini">Termini</span>
+        <span id="imposationi">Impostazioni</span>
+        <span id="utilizza">Utilizza Google.com</span>
       </div>
     </footer>
 
