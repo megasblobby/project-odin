@@ -28,7 +28,7 @@ footer {
   background-color: #F2F2F2;
   color: #737373;
   margin: 0;
-  margin-top: 171px;
+  margin-top: 170px;
   border-top-width: 1px;
   border-top-style: solid;
   border-color: #E4E4E4;
@@ -122,4 +122,12 @@ max-width: 290px;
 min-height: 95px;
 margin-top: 140px;
 margin-bottom: 20px;
+}
+
+#sublogo {
+  font-family: roboto-regular,arial,sans-serif;
+  font-size: 16px;
+  color: #4288F7;
+  margin-right: 26px;
+  margin-top: 80px;
 }
