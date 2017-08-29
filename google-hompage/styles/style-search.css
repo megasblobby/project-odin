@@ -14,29 +14,49 @@ html, body {
 
 header {
   width: 100%;
-  height: 130px;
+  height: 120px;
   background-color: #FAFAFA;
+  border-bottom: #EBEBEB solid 1px;
 }
 
 .option {
+  width: 60px;
+  height: 38px;
   background-color: #FAFAFA;
   font-family: arial,sans-serif;
   font-size: 13px;
   color: rgb(119, 119, 119);
-  margin-left: 5px;
-  margin-right: 5px;
   border-style: none;
+}
+
+.special-option {
+  width: 90px;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+.selected-option {
+  color: #4288F5;
+  border-bottom: #4288F5 solid 3px;
+  font-weight: bold;
 }
 
 #logo {
   display: inline-block;
   width: 120px;
   height: 44px;
+  margin-top: 20px;
+  margin-left: 10px;
   background-image: url(https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png);
   background-size: 120px 44px;
   background-repeat: no-repeat;
   max-width: 120px;
   min-height: 44px;
+}
+
+#search-bar-container {
   margin-top: 10px;
 }
 
@@ -44,20 +64,27 @@ header {
   position: absolute;
   display: inline-block;
   width: 590px;
-  height: 120px;
-  margin-left: 30px;
+  height: 110px;
+  margin-left: 20px;
 }
 
 #search-options {
   height: 40px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-#all {
-  color: #4288F5;
-  border-bottom: #4288F5 solid 2px;
+#special-options {
+  margin-top : 0;
 }
 
+#tools {
+  height: 30px;
+}
+
+#tools:hover {
+  background-color: #F2F2F2;
+  border: #C6C6C6 solid 1px;
+}
 
 
 /*
