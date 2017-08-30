@@ -43,6 +43,39 @@ header {
   font-weight: bold;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.title {
+  color: #1a0dab;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.url {
+  color: #006621;
+  font-size: 14px;
+}
+
+.translate {
+  color: #1a0dab;
+  font-size: 14px;
+}
+
+.result-data {
+  color: #979797;
+  font-size: small;
+}
+
+.description {
+  color: #545454;
+  font-size: small;
+  margin-top: 3px;
+}
+
+
 #logo {
   display: inline-block;
   width: 120px;
@@ -86,7 +119,25 @@ header {
   border: #C6C6C6 solid 1px;
 }
 
+#left-column {
+  width: 150px;
+  height: 100%;
+}
 
+#search-results {
+  width: 590px;
+  height: 100%;
+}
+
+#right-column {
+  width: 150px;
+  height: 100%;
+}
+
+#number-of-results {
+  color: #979797;
+  font-size: small;
+}
 /*
 header {
   width: 100%;
