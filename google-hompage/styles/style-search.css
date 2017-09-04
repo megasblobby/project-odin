@@ -75,6 +75,24 @@ header {
   margin-top: 3px;
 }
 
+.visual-menu {
+  display: inline-block;
+  background-image: url(https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png);
+  background-size: 108px 39.6px;
+  background-repeat: no-repeat;
+  margin-left: -2px;
+}
+
+.o {
+  width: 18px;
+  height: 28px;
+  background-position: -47px -9px;
+}
+
+#navigation-text a {
+  color: #4788F4;
+  font-size: small;
+}
 
 #logo {
   display: inline-block;
@@ -138,6 +156,26 @@ header {
   color: #979797;
   font-size: small;
 }
+
+#navigation-menu {
+  margin-left: 40px;
+}
+
+#g {
+  width: 28px;
+  height: 37px;
+}
+
+#first-o {
+  background-position: -28px -9px;
+}
+
+#gle {
+  width: 40px;
+  height: 39px;
+  background-position: -66px 3px;
+}
+
 /*
 header {
   width: 100%;
