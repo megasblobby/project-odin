@@ -89,9 +89,20 @@ header {
   background-position: -47px -9px;
 }
 
-#navigation-text a {
+.o:hover {
+  cursor: pointer;
+}
+
+.index {
   color: #4788F4;
   font-size: small;
+  margin-left: 9px;
+  padding: 0px;
+}
+
+.index:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 #logo {
@@ -158,7 +169,8 @@ header {
 }
 
 #navigation-menu {
-  margin-left: 40px;
+  margin-left: 110px;
+  margin-top: 30px;
 }
 
 #g {
@@ -176,42 +188,40 @@ header {
   background-position: -66px 3px;
 }
 
-/*
-header {
-  width: 100%;
-  height: 60px;
+#arrow{
+  display: inline-block;
+  width: 10px;
+  height: 37px;
+  background-image: url(https://www.google.it/images/nav_logo242.png);
+  background-position: -160px 0px;
+  background-size: 167px 410px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
 }
 
-header span {
-  margin-top: 10px;
-  margin-bottom: -10px;
-}
-
-header a {
+#current {
+  margin-left: 33px;
   color: #000000;
-  text-decoration: none;
-  margin-top: 10px;
-  margin-right: 15px;
-  margin-bottom: -10px;
-  font-size: 13px;
 }
 
-header a:hover {
-  text-decoration: underline;
+#next {
+  margin-left: 45px;
 }
+
 
 footer {
-  background-color: #F2F2F2;
+  /*background-color: #F2F2F2;
   color: #737373;
-  margin: 0;
-  margin-top: 170px;
-  border-top-width: 1px;
+  margin: 0;*/
+  margin-top: 40px;
+  height: 80px;
+  /*border-top-width: 1px;
   border-top-style: solid;
   border-color: #E4E4E4;
   width: 100%;
-  height: 45px;
+  */
 }
-
+/*
 footer div {
   display: inline-block;
   width: 30%;
