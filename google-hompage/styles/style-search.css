@@ -19,6 +19,10 @@ header {
   border-bottom: #EBEBEB solid 1px;
 }
 
+.left-margin {
+  margin-left: 150px;
+}
+
 .option {
   width: 60px;
   height: 38px;
@@ -105,6 +109,10 @@ header {
   text-decoration: underline;
 }
 
+.small-font {
+  font-size: small;
+}
+
 #logo {
   display: inline-block;
   width: 120px;
@@ -148,19 +156,10 @@ header {
   border: #C6C6C6 solid 1px;
 }
 
-#left-column {
-  width: 150px;
-  height: 100%;
-}
-
 #search-results {
   width: 590px;
   height: 100%;
-}
 
-#right-column {
-  width: 150px;
-  height: 100%;
 }
 
 #number-of-results {
@@ -208,6 +207,20 @@ header {
   margin-left: 45px;
 }
 
+#circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #9E9E9E;
+}
+
+#geo {
+  color: #AAAAAA;
+}
+
+#footer-links a {
+  margin-right: 30px;
+}
 
 footer {
   /*background-color: #F2F2F2;
@@ -215,12 +228,26 @@ footer {
   margin: 0;*/
   margin-top: 40px;
   height: 80px;
+  font-size: small;
+  display:
   /*border-top-width: 1px;
   border-top-style: solid;
   border-color: #E4E4E4;
   width: 100%;
   */
 }
+
+footer div {
+  display: block;
+  width: 600px;
+  margin-top: 20px;
+}
+
+footer a {
+  margin-right: 0px;
+}
+
+
 /*
 footer div {
   display: inline-block;
