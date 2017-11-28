@@ -1,0 +1,24 @@
+/* {
+  margin: 0px;
+  border: 1px solid #000000;
+}*/
+#grid-container {
+  min-width: 960px;
+  max-width: 960px;
+  min-height: 960px;
+  max-height: 960px;
+}
+
+.row-container {
+  /*min-height: 16px;
+  max-height: 16px;*/
+}
+
+.grid-element {
+  margin: 0px;
+  border: 1px solid #000000;
+  background-color: #FF0000;
+  /*width: 14px;
+  height: 14px;*/
+  display: inline-block;
+}
